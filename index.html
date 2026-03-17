@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Coffee House</title>
     
+    <!-- preconnect speeds up font loading -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    <!-- skips nav for keyboard users -->
     <a href="#main-content" class="skip-link">Skip to main content</a>
 
     <header>
@@ -38,6 +40,7 @@
             </div>
         </section>
 
+        <!-- large img left, 4 small imgs right -->
         <section id="welcome" class="welcome-section">
             <div class="wrapper">
                 <h4>WELCOME TO MY COFFEE HOUSE</h4>
@@ -53,6 +56,7 @@
             </div>
         </section>
 
+        <!-- aria-hidden stops screen readers announcing the svg file names -->
         <section id="features" class="features-section">
             <div class="wrapper">
                 <h4>WHAT WE OFFER</h4>
@@ -64,13 +68,11 @@
                         <h3>Fair Trade Coffee</h3>
                         <p>We build direct relationships with the farmers and producers who help in the development of delicious, sustainable and organic coffee.</p>
                     </div>
-
                     <div class="feature-item">
                         <img src="images/local-baked-goods.svg" alt="" aria-hidden="true" class="feature-icon">
                         <h3>Local baked goods</h3>
                         <p>We use local products to bake our goods and bring in a variety of treats from local bakers with our community.</p>
                     </div>
-
                     <div class="feature-item">
                         <img src="images/made-with-love.svg" alt="" aria-hidden="true" class="feature-icon">
                         <h3>Made with Love</h3>
@@ -80,6 +82,7 @@
             </div>
         </section>
 
+        <!-- 2 promo blocks side by side, different btn styles to contrast the 2 bg colors -->
         <section id="promo-banners" class="promo-section">
             <div class="wrapper promo-grid">
                 <div class="promo-block">
@@ -95,6 +98,7 @@
             </div>
         </section>
 
+        <!-- img is in the HTML before the text but CSS flips the order on desktop -->
         <section id="about" class="about-section">
             <div class="wrapper">
                 <div class="about-image">
@@ -110,6 +114,7 @@
             </div>
         </section>
 
+        <!-- overlay sits on top of each photo, see testimonials-overlay in css -->
         <section id="testimonials" class="testimonials-section">
             <div class="wrapper">
                 <h4>TESTIMONIALS</h4>
@@ -123,7 +128,6 @@
                             <footer>JANE D., TORONTO</footer>
                         </div>
                     </div>
-                    
                     <div class="testimonial-card">
                         <img src="images/testimonial-2.jpeg" alt="guy with laptop">
                         <div class="testimonial-overlay">
@@ -131,7 +135,6 @@
                             <footer>SCOTT S., OTTAWA</footer>
                         </div>
                     </div>
-
                     <div class="testimonial-card">
                         <img src="images/testimonial-3.jpeg" alt="redhead with coffee">
                         <div class="testimonial-overlay">
